@@ -1,0 +1,10 @@
+# This file describes a deployment project
+
+# Arena description file
+arena : simple_2x2.arena
+
+# Neighborhood graph
+nbg : simple_2x2.nbg
+
+# Deployment specification
+dep : casu.dep
