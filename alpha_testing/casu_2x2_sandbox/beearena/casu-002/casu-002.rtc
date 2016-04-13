@@ -1,8 +1,0 @@
-name: casu-002
-pub_addr: tcp://casu-002:2556
-sub_addr: tcp://casu-002:2555
-msg_addr: tcp://*:20202
-neighbors:
-  back:
-    address: tcp://casu-003:10203
-    name: casu-003
