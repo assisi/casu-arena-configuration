@@ -15,48 +15,48 @@ beearena :
     # allowed to contain letters, dashes and underscores
     casu-001 :
         pose : {x : -8, y : 5, yaw : 0}
-        sub_addr : tcp://bbg-001:4555
-        pub_addr : tcp://bbg-001:4556
-        msg_addr : tcp://bbg-001:20204
+        sub_addr : tcp://bbg-001:1555
+        pub_addr : tcp://bbg-001:1556
+        msg_addr : tcp://bbg-001:10201
 
     casu-002 :
         pose : {x : 8, y : 5, yaw : 0}
-        sub_addr : tcp://bbg-001:3555
-        pub_addr : tcp://bbg-001:3556
-        msg_addr : tcp://bbg-001:10203
-
-    casu-003 :
-        pose : {x : -8, y : -5, yaw : 0}
         sub_addr : tcp://bbg-001:2555
         pub_addr : tcp://bbg-001:2556
         msg_addr : tcp://bbg-001:20202
 
+    casu-003 :
+        pose : {x : -8, y : -5, yaw : 0}
+        sub_addr : tcp://bbg-001:3555
+        pub_addr : tcp://bbg-001:3556
+        msg_addr : tcp://bbg-001:10203
+
     casu-004 :
         pose : {x : 8, y : -5, yaw : 0}
-        sub_addr : tcp://bbg-001:1555
-        pub_addr : tcp://bbg-001:1556
-        msg_addr : tcp://bbg-001:10201
-
-    casu-005 :
-        pose : {x : -8, y : -15, yaw : 0}
         sub_addr : tcp://bbg-001:4555
         pub_addr : tcp://bbg-001:4556
         msg_addr : tcp://bbg-001:20204
 
+    casu-005 :
+        pose : {x : -8, y : -15, yaw : 0}
+        sub_addr : tcp://bbg-002:1555
+        pub_addr : tcp://bbg-002:1556
+        msg_addr : tcp://bbg-002:10201
+
     casu-006 :
         pose : {x : 8, y : -15, yaw : 0}
-        sub_addr : tcp://bbg-001:3555
-        pub_addr : tcp://bbg-001:3556
-        msg_addr : tcp://bbg-001:10203
+        sub_addr : tcp://bbg-002:2555
+        pub_addr : tcp://bbg-002:2556
+        msg_addr : tcp://bbg-002:20202
 
     casu-007 :
         pose : {x : -8, y : -25, yaw : 0}
-        sub_addr : tcp://bbg-001:2555
-        pub_addr : tcp://bbg-001:2556
-        msg_addr : tcp://bbg-001:20202
+        sub_addr : tcp://bbg-002:3555
+        pub_addr : tcp://bbg-002:3556
+        msg_addr : tcp://bbg-002:10203
 
     casu-008 :
         pose : {x : 8, y : -25, yaw : 0}
-        sub_addr : tcp://bbg-001:1555
-        pub_addr : tcp://bbg-001:1556
-        msg_addr : tcp://bbg-001:10201
+        sub_addr : tcp://bbg-002:4555
+        pub_addr : tcp://bbg-002:4556
+        msg_addr : tcp://bbg-002:20204
