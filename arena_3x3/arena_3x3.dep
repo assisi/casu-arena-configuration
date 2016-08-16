@@ -8,16 +8,15 @@ beearena :
         hostname : bbg-001
         user : assisi
         prefix : deploy
-        controller: controllers/blink_and_send_seed.py
+        controller: controllers/blink_and_send.py
         # The brackets around additional files are necessary,
         # because the deployment tool expects a list!
-        extra : [controllers/additional_file_1.dummy]
+        extra : []
     casu-002 : 
         hostname : bbg-001
         user : assisi
         prefix : deploy
         controller: controllers/blink_and_send.py
-        extra : [controllers/additional_file_1.dummy,controllers/additional_file_2.dummy]
     casu-003 : 
         hostname : bbg-001
         user : assisi
@@ -32,16 +31,12 @@ beearena :
         hostname : bbg-002
         user : assisi
         prefix : deploy
-        controller: controllers/blink_and_send_seed.py
-        # The brackets around additional files are necessary,
-        # because the deployment tool expects a list!
-        extra : [controllers/additional_file_1.dummy]
+        controller: controllers/blink_and_send.py
     casu-006 : 
         hostname : bbg-002
         user : assisi
         prefix : deploy
         controller: controllers/blink_and_send.py
-        extra : [controllers/additional_file_1.dummy,controllers/additional_file_2.dummy]
     casu-007 : 
         hostname : bbg-002
         user : assisi
