@@ -1,0 +1,17 @@
+name: casu-022
+pub_addr: tcp://bbg-005:4556
+sub_addr: tcp://bbg-005:4555
+msg_addr: tcp://*:50504
+neighbors:
+  back:
+    address: tcp://bbg-005:50503
+    name: casu-021
+  front:
+    address: tcp://bbg-006:50602
+    name: casu-023
+  left:
+    address: tcp://bbg-005:50502
+    name: casu-014
+  right:
+    address: tcp://bbg-011:51101
+    name: casu-031
