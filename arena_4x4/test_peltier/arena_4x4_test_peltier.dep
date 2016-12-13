@@ -1,0 +1,86 @@
+# Deployment specification file
+# For each casu in the arena, we need to specifiy:
+#     - the hostname of the target machine
+#     - the controller and additional files to deploy
+
+beearena : 
+    casu-013 : 
+        hostname : bbg-005
+        user : assisi
+        prefix : deploy
+        controller: controllers/peltier_switching_cold_hot.py
+    casu-014 : 
+        hostname : bbg-005
+        user : assisi
+        prefix : deploy
+        controller: controllers/peltier_switching_hot_cold.py
+    casu-015 : 
+        hostname : bbg-006
+        user : assisi
+        prefix : deploy
+        controller: controllers/peltier_switching_cold_hot.py
+    casu-016 : 
+        hostname : bbg-004
+        user : assisi
+        prefix : deploy
+        controller: controllers/peltier_switching_hot_cold.py
+    casu-021 : 
+        hostname : bbg-005
+        user : assisi
+        prefix : deploy
+        controller: controllers/peltier_switching_cold_hot.py
+    casu-022 : 
+        hostname : bbg-005
+        user : assisi
+        prefix : deploy
+        controller: controllers/peltier_switching_hot_cold.py
+    casu-023 : 
+        hostname : bbg-006
+        user : assisi
+        prefix : deploy
+        controller: controllers/peltier_switching_cold_hot.py
+    casu-024 : 
+        hostname : bbg-008
+        user : assisi
+        prefix : deploy
+        controller: controllers/peltier_switching_hot_cold.py
+    casu-030 : 
+        hostname : bbg-010
+        user : assisi
+        prefix : deploy
+        controller: controllers/peltier_switching_cold_hot.py
+    casu-031 : 
+        hostname : bbg-011
+        user : assisi
+        prefix : deploy
+        controller: controllers/peltier_switching_hot_cold.py
+    casu-032 : 
+        hostname : bbg-006
+        user : assisi
+        prefix : deploy
+        controller: controllers/peltier_switching_cold_hot.py
+    casu-033 : 
+        hostname : bbg-008
+        user : assisi
+        prefix : deploy
+        controller: controllers/peltier_switching_hot_cold.py
+    casu-039 : 
+        hostname : bbg-010
+        user : assisi
+        prefix : deploy
+        controller: controllers/peltier_switching_cold_hot.py
+    casu-040 : 
+        hostname : bbg-011
+        user : assisi
+        prefix : deploy
+        controller: controllers/peltier_switching_hot_cold.py
+    casu-041 : 
+        hostname : bbg-011
+        user : assisi
+        prefix : deploy
+        controller: controllers/peltier_switching_cold_hot.py
+    casu-042 : 
+        hostname : bbg-011
+        user : assisi
+        prefix : deploy
+        controller: controllers/peltier_switching_hot_cold.py

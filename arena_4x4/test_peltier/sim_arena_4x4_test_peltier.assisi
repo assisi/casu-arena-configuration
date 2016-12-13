@@ -1,10 +1,10 @@
 # This file describes a deployment project
 
 # Arena description file
-arena : simple_2x2.arena
+arena : sim_arena_4x4.arena
 
 # Neighborhood graph
-nbg : simple_2x2.nbg
+nbg : arena_4x4.nbg
 
 # Deployment specification
-dep : casu.dep
+dep : sim_arena_4x4_test_peltier.dep

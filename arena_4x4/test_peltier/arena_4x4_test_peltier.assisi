@@ -1,10 +1,10 @@
 # This file describes a deployment project
 
 # Arena description file
-arena : arena_4x2.arena
+arena : arena_4x4.arena
 
 # Neighborhood graph
-nbg : arena_4x2.nbg
+nbg : arena_4x4.nbg
 
 # Deployment specification
-dep : arena_4x2.dep
+dep : arena_4x4_test_peltier.dep
