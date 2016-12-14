@@ -49,6 +49,7 @@ beearena :
         hostname : bbg-010
         user : assisi
         prefix : deploy
+        controller: controllers/vibrate_pattern_and_send.py 
     casu-031 : 
         hostname : bbg-011
         user : assisi
@@ -68,6 +69,7 @@ beearena :
         hostname : bbg-010
         user : assisi
         prefix : deploy
+        controller: controllers/vibrate_pattern_and_send.py
     casu-040 : 
         hostname : bbg-011
         user : assisi
