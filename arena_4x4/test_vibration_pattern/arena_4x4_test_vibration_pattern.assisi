@@ -4,7 +4,7 @@
 arena : arena_4x4.arena
 
 # Neighborhood graph
-nbg : arena_4x4_test_vibration_pattern.nbg
+nbg : arena_4x4_loop.nbg
 
 # Deployment specification
 dep : arena_4x4_test_vibration_pattern.dep
