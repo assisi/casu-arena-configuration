@@ -36,5 +36,5 @@ if __name__ == '__main__':
             time.sleep(t[0])
             c.send_message('right','blink')
             c.set_diagnostic_led_rgb(g=0)
-            c.set_speaker_standby()
+            c.speaker_standby()
             time.sleep(t[1])
