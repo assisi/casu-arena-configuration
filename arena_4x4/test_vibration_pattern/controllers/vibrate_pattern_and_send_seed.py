@@ -31,7 +31,7 @@ if __name__ == '__main__':
     while True:
         for (a,f,d,t) in zip(amplitudes,frequencies,durations,sleep_periods):
             c.set_diagnostic_led_rgb(g=1)
-            c.set_vibrations_pattern(d,f,a)
+            c.set_vibration_pattern(d,f,a)
             time.sleep(t[0])
             c.send_message('right','blink')
             c.set_diagnostic_led_rgb(g=0)
