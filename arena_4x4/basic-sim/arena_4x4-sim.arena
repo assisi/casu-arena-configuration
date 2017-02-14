@@ -1,0 +1,105 @@
+# Configuration file describing a 4x4 arena
+
+# the position of the CASUs in reality and GUI is identical
+
+# Layer names can be assigned arbitrarily, 
+# as long as they consist only of letters, dashes and underscores
+
+beearena :
+    # Casu names have to start with casu- in order for
+    # automatic spawning to work; they are also only
+    # allowed to contain letters, dashes and underscores
+    casu-013 :
+        pose : {x : -9, y : 18, yaw : -1.57}
+        sub_addr : tcp://localhost:5555
+        pub_addr : tcp://localhost:5556
+        msg_addr : tcp://localhost:50501
+
+    casu-014 :
+        pose : {x : 0, y : 18, yaw : -1.57}
+        sub_addr : tcp://localhost:5555
+        pub_addr : tcp://localhost:5556
+        msg_addr : tcp://localhost:50502
+
+    casu-015 :
+        pose : {x : 9, y : 18, yaw : -1.57}
+        sub_addr : tcp://localhost:5555
+        pub_addr : tcp://localhost:5556
+        msg_addr : tcp://localhost:50601
+
+    casu-016 :
+        pose : {x : 18, y : 18, yaw : -1.57}
+        sub_addr : tcp://localhost:5555
+        pub_addr : tcp://localhost:5556
+        msg_addr : tcp://localhost:50403
+
+    casu-021 :
+        pose : {x : -9, y : 9, yaw : -1.57}
+        sub_addr : tcp://localhost:5555
+        pub_addr : tcp://localhost:5556
+        msg_addr : tcp://localhost:50503
+
+    casu-022 :
+        pose : {x : 0, y : 9, yaw : -1.57}
+        sub_addr : tcp://localhost:5555
+        pub_addr : tcp://localhost:5556
+        msg_addr : tcp://localhost:50504
+
+    casu-023 :
+        pose : {x : 9, y : 9, yaw : -1.57}
+        sub_addr : tcp://localhost:5555
+        pub_addr : tcp://localhost:5556
+        msg_addr : tcp://localhost:50602
+
+    casu-024 :
+        pose : {x : 18, y : 9, yaw : -1.57}
+        sub_addr : tcp://localhost:5555
+        pub_addr : tcp://localhost:5556
+        msg_addr : tcp://localhost:50801
+    casu-030 :
+        pose : {x : -9, y : 0, yaw : -1.57}
+        sub_addr : tcp://localhost:5555
+        pub_addr : tcp://localhost:5556
+        msg_addr : tcp://localhost:51001
+
+    casu-031 :
+        pose : {x : 0, y : 0, yaw : -1.57}
+        sub_addr : tcp://localhost:5555
+        pub_addr : tcp://localhost:5556
+        msg_addr : tcp://localhost:51101
+
+    casu-032 :
+        pose : {x : 9, y : 0, yaw : -1.57}
+        sub_addr : tcp://localhost:5555
+        pub_addr : tcp://localhost:5556
+        msg_addr : tcp://localhost:50603
+
+    casu-033 :
+        pose : {x : 18, y : 0, yaw : -1.57}
+        sub_addr : tcp://localhost:5555
+        pub_addr : tcp://localhost:5556
+        msg_addr : tcp://localhost:50803
+
+    casu-039 :
+        pose : {x : -9, y : -9, yaw : -1.57}
+        sub_addr : tcp://localhost:5555
+        pub_addr : tcp://localhost:5556
+        msg_addr : tcp://localhost:51003
+
+    casu-040 :
+        pose : {x : 0, y : -9, yaw : -1.57}
+        sub_addr : tcp://localhost:5555
+        pub_addr : tcp://localhost:5556
+        msg_addr : tcp://localhost:51102
+
+    casu-041 :
+        pose : {x : 9, y : -9, yaw : -1.57}
+        sub_addr : tcp://localhost:5555
+        pub_addr : tcp://localhost:5556
+        msg_addr : tcp://localhost:51103
+
+    casu-042 :
+        pose : {x : 18, y : -9, yaw : -1.57}
+        sub_addr : tcp://localhost:5555
+        pub_addr : tcp://localhost:5556
+        msg_addr : tcp://localhost:51104
