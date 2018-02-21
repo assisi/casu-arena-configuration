@@ -1,0 +1,102 @@
+# Deployment specification file
+# For each casu in the arena, we need to specifiy:
+#     - the hostname of the target machine
+#     - the controller and additional files to deploy
+
+beearena : 
+    casu-013 : 
+        hostname : localhost
+        user : assisi
+        prefix : deploy
+        controller: controllers/blink_and_send_seed.py
+        # The brackets around additional files are necessary,
+        # because the deployment tool expects a list!
+        extra : []
+    casu-014 : 
+        hostname : localhost
+        user : assisi
+        prefix : deploy
+        controller: controllers/blink_and_send.py
+        extra : []
+    casu-015 : 
+        hostname : localhost
+        user : assisi
+        prefix : deploy
+        controller: controllers/blink_and_send.py
+    casu-016 : 
+        hostname : localhost
+        user : assisi
+        prefix : deploy
+        controller: controllers/blink_and_send.py
+    casu-021 : 
+        hostname : localhost
+        user : assisi
+        prefix : deploy
+        controller: controllers/blink_and_send_seed.py
+        # The brackets around additional files are necessary,
+        # because the deployment tool expects a list!
+        extra : []
+    casu-022 : 
+        hostname : localhost
+        user : assisi
+        prefix : deploy
+        controller: controllers/blink_and_send.py
+        extra : []
+    casu-023 : 
+        hostname : localhost
+        user : assisi
+        prefix : deploy
+        controller: controllers/blink_and_send.py
+    casu-024 : 
+        hostname : localhost
+        user : assisi
+        prefix : deploy
+        controller: controllers/blink_and_send.py
+    casu-030 : 
+        hostname : localhost
+        user : assisi
+        prefix : deploy
+        controller: controllers/blink_and_send_seed.py
+        # The brackets around additional files are necessary,
+        # because the deployment tool expects a list!
+        extra : []
+    casu-031 : 
+        hostname : localhost
+        user : assisi
+        prefix : deploy
+        controller: controllers/blink_and_send.py
+        extra : []
+    casu-032 : 
+        hostname : localhost
+        user : assisi
+        prefix : deploy
+        controller: controllers/blink_and_send.py
+    casu-033 : 
+        hostname : localhost
+        user : assisi
+        prefix : deploy
+        controller: controllers/blink_and_send.py
+    casu-039 : 
+        hostname : localhost
+        user : assisi
+        prefix : deploy
+        controller: controllers/blink_and_send_seed.py
+        # The brackets around additional files are necessary,
+        # because the deployment tool expects a list!
+        extra : []
+    casu-040 : 
+        hostname : localhost
+        user : assisi
+        prefix : deploy
+        controller: controllers/blink_and_send.py
+        extra : []
+    casu-041 : 
+        hostname : localhost
+        user : assisi
+        prefix : deploy
+        controller: controllers/blink_and_send.py
+    casu-042 : 
+        hostname : localhost
+        user : assisi
+        prefix : deploy
+        controller: controllers/blink_and_send.py
