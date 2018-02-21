@@ -1,5 +1,5 @@
 name: casu-007
-pub_addr: tcp://bbg-001:4556
-sub_addr: tcp://bbg-001:4555
-msg_addr: tcp://*:50104
+pub_addr: tcp://bbg-001:1556
+sub_addr: tcp://bbg-001:1555
+msg_addr: tcp://*:50101
 neighbors:

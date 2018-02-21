@@ -3,15 +3,3 @@ pub_addr: tcp://bbg-006:3556
 sub_addr: tcp://bbg-006:3555
 msg_addr: tcp://*:50603
 neighbors:
-  back:
-    address: tcp://bbg-011:51101
-    name: casu-031
-  front:
-    address: tcp://bbg-008:50803
-    name: casu-033
-  left:
-    address: tcp://bbg-006:50602
-    name: casu-023
-  right:
-    address: tcp://bbg-011:51103
-    name: casu-041
