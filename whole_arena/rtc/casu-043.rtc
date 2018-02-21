@@ -1,0 +1,5 @@
+name: casu-043
+pub_addr: tcp://bbg-012:3556
+sub_addr: tcp://bbg-012:3555
+msg_addr: tcp://*:51203
+neighbors:

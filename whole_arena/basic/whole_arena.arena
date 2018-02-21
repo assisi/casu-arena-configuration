@@ -1,0 +1,378 @@
+# Configuration file describing a 4x4 arena
+
+# the position of the CASUs in reality and GUI is identical
+
+# Layer names can be assigned arbitrarily,
+# as long as they consist only of letters, dashes and underscores
+
+beearena :
+    # Casu names have to start with casu- in order for
+    # automatic spawning to work; they are also only
+    # allowed to contain letters, dashes and underscores
+    casu-001 :
+        pose : {x : -9, y : 36, yaw : -1.57}
+        sub_addr : tcp://bbg-001:1555
+        pub_addr : tcp://bbg-001:1556
+        msg_addr : tcp://bbg-001:50101
+
+    casu-002 :
+        pose : {x : 0, y : 36, yaw : -1.57}
+        sub_addr : tcp://bbg-001:2555
+        pub_addr : tcp://bbg-001:2556
+        msg_addr : tcp://bbg-001:50102
+
+    casu-003 :
+        pose : {x : 9, y : 36, yaw : -1.57}
+        sub_addr : tcp://bbg-002:1555
+        pub_addr : tcp://bbg-002:1556
+        msg_addr : tcp://bbg-002:50201
+
+    casu-004 :
+        pose : {x : -27, y : 27, yaw : -1.57}
+        sub_addr : tcp://bbg-003:1555
+        pub_addr : tcp://bbg-003:1556
+        msg_addr : tcp://bbg-003:50301
+
+    casu-005 :
+        pose : {x : -18, y : 27, yaw : -1.57}
+        sub_addr : tcp://bbg-003:2555
+        pub_addr : tcp://bbg-003:2556
+        msg_addr : tcp://bbg-003:50302
+
+    casu-006 :
+        pose : {x : -9, y : 27, yaw : -1.57}
+        sub_addr : tcp://bbg-001:3555
+        pub_addr : tcp://bbg-001:3556
+        msg_addr : tcp://bbg-001:50103
+
+    casu-007 :
+        pose : {x : 0, y : 27, yaw : -1.57}
+        sub_addr : tcp://bbg-001:4555
+        pub_addr : tcp://bbg-001:4556
+        msg_addr : tcp://bbg-001:50104
+
+    casu-008 :
+        pose : {x : 9, y : 27, yaw : -1.57}
+        sub_addr : tcp://bbg-002:2555
+        pub_addr : tcp://bbg-002:2556
+        msg_addr : tcp://bbg-002:50202
+
+    casu-009 :
+        pose : {x : 18, y : 27, yaw : -1.57}
+        sub_addr : tcp://bbg-004:1555
+        pub_addr : tcp://bbg-004:1556
+        msg_addr : tcp://bbg-004:50401
+
+    casu-010 :
+        pose : {x : 27, y : 27, yaw : -1.57}
+        sub_addr : tcp://bbg-004:2555
+        pub_addr : tcp://bbg-004:2556
+        msg_addr : tcp://bbg-004:50402
+
+    casu-011 :
+        pose : {x : -27, y : 18, yaw : -1.57}
+        sub_addr : tcp://bbg-003:3555
+        pub_addr : tcp://bbg-003:3556
+        msg_addr : tcp://bbg-003:50303
+
+    casu-012 :
+        pose : {x : -18, y : 18, yaw : -1.57}
+        sub_addr : tcp://bbg-003:4555
+        pub_addr : tcp://bbg-003:4556
+        msg_addr : tcp://bbg-003:50304
+
+    casu-013 :
+        pose : {x : -9, y : 18, yaw : -1.57}
+        sub_addr : tcp://bbg-005:1555
+        pub_addr : tcp://bbg-005:1556
+        msg_addr : tcp://bbg-005:50501
+
+    casu-014 :
+        pose : {x : 0, y : 18, yaw : -1.57}
+        sub_addr : tcp://bbg-005:2555
+        pub_addr : tcp://bbg-005:2556
+        msg_addr : tcp://bbg-005:50502
+
+    casu-015 :
+        pose : {x : 9, y : 18, yaw : -1.57}
+        sub_addr : tcp://bbg-006:1555
+        pub_addr : tcp://bbg-006:1556
+        msg_addr : tcp://bbg-006:50601
+
+    casu-016 :
+        pose : {x : 18, y : 18, yaw : -1.57}
+        sub_addr : tcp://bbg-004:3555
+        pub_addr : tcp://bbg-004:3556
+        msg_addr : tcp://bbg-004:50403
+
+    casu-017 :
+        pose : {x : 27, y : 18, yaw : -1.57}
+        sub_addr : tcp://bbg-004:4555
+        pub_addr : tcp://bbg-004:4556
+        msg_addr : tcp://bbg-004:50404
+
+    casu-018 :
+        pose : {x : -36, y : 9, yaw : -1.57}
+        sub_addr : tcp://bbg-009:1555
+        pub_addr : tcp://bbg-009:1556
+        msg_addr : tcp://bbg-009:50901
+
+    casu-019 :
+        pose : {x : -27, y : 9, yaw : -1.57}
+        sub_addr : tcp://bbg-007:1555
+        pub_addr : tcp://bbg-007:1556
+        msg_addr : tcp://bbg-007:50701
+
+    casu-020 :
+        pose : {x : -18, y : 9, yaw : -1.57}
+        sub_addr : tcp://bbg-007:2555
+        pub_addr : tcp://bbg-007:2556
+        msg_addr : tcp://bbg-007:50702
+
+    casu-021 :
+        pose : {x : -9, y : 9, yaw : -1.57}
+        sub_addr : tcp://bbg-005:3555
+        pub_addr : tcp://bbg-005:3556
+        msg_addr : tcp://bbg-005:50503
+
+    casu-022 :
+        pose : {x : 0, y : 9, yaw : -1.57}
+        sub_addr : tcp://bbg-005:4555
+        pub_addr : tcp://bbg-005:4556
+        msg_addr : tcp://bbg-005:50504
+
+    casu-023 :
+        pose : {x : 9, y : 9, yaw : -1.57}
+        sub_addr : tcp://bbg-006:2555
+        pub_addr : tcp://bbg-006:2556
+        msg_addr : tcp://bbg-006:50602
+
+    casu-024 :
+        pose : {x : 18, y : 9, yaw : -1.57}
+        sub_addr : tcp://bbg-008:1555
+        pub_addr : tcp://bbg-008:1556
+        msg_addr : tcp://bbg-008:50801
+
+    casu-025 :
+        pose : {x : 27, y : 9, yaw : -1.57}
+        sub_addr : tcp://bbg-008:2555
+        pub_addr : tcp://bbg-008:2556
+        msg_addr : tcp://bbg-008:50802
+
+#    casu-026 :
+#        pose : {x : 36, y : 9, yaw : -1.57}
+#        sub_addr : tcp://bbg-012:1555
+#        pub_addr : tcp://bbg-012:1556
+#        msg_addr : tcp://bbg-012:51201
+
+    casu-027 :
+        pose : {x : -36, y : 0, yaw : -1.57}
+        sub_addr : tcp://bbg-009:2555
+        pub_addr : tcp://bbg-009:2556
+        msg_addr : tcp://bbg-009:50902
+
+    casu-028 :
+        pose : {x : -27, y : 0, yaw : -1.57}
+        sub_addr : tcp://bbg-007:3555
+        pub_addr : tcp://bbg-007:3556
+        msg_addr : tcp://bbg-007:50703
+
+    casu-029 :
+        pose : {x : -18, y : 0, yaw : -1.57}
+        sub_addr : tcp://bbg-007:4555
+        pub_addr : tcp://bbg-007:4556
+        msg_addr : tcp://bbg-007:50704
+
+    casu-030 :
+        pose : {x : -9, y : 0, yaw : -1.57}
+        sub_addr : tcp://bbg-010:1555
+        pub_addr : tcp://bbg-010:1556
+        msg_addr : tcp://bbg-010:51001
+
+    casu-031 :
+        pose : {x : 0, y : 0, yaw : -1.57}
+        sub_addr : tcp://bbg-011:1555
+        pub_addr : tcp://bbg-011:1556
+        msg_addr : tcp://bbg-011:51101
+
+    casu-032 :
+        pose : {x : 9, y : 0, yaw : -1.57}
+        sub_addr : tcp://bbg-006:3555
+        pub_addr : tcp://bbg-006:3556
+        msg_addr : tcp://bbg-006:50603
+
+    casu-033 :
+        pose : {x : 18, y : 0, yaw : -1.57}
+        sub_addr : tcp://bbg-008:3555
+        pub_addr : tcp://bbg-008:3556
+        msg_addr : tcp://bbg-008:50803
+
+    casu-034 :
+        pose : {x : 27, y : 0, yaw : -1.57}
+        sub_addr : tcp://bbg-008:4555
+        pub_addr : tcp://bbg-008:4556
+        msg_addr : tcp://bbg-008:50804
+
+#    casu-035 :
+#        pose : {x : 36, y : 0, yaw : -1.57}
+#        sub_addr : tcp://bbg-012:2555
+#        pub_addr : tcp://bbg-012:2556
+#        msg_addr : tcp://bbg-012:51202
+
+    casu-036 :
+        pose : {x : -36, y : -9, yaw : -1.57}
+        sub_addr : tcp://bbg-009:3555
+        pub_addr : tcp://bbg-009:3556
+        msg_addr : tcp://bbg-009:50903
+
+    casu-037 :
+        pose : {x : -27, y : -9, yaw : -1.57}
+        sub_addr : tcp://bbg-009:4555
+        pub_addr : tcp://bbg-009:4556
+        msg_addr : tcp://bbg-009:50904
+
+    casu-038 :
+        pose : {x : -18, y : -9, yaw : -1.57}
+        sub_addr : tcp://bbg-010:2555
+        pub_addr : tcp://bbg-010:2556
+        msg_addr : tcp://bbg-010:51002
+
+    casu-039 :
+        pose : {x : -9, y : -9, yaw : -1.57}
+        sub_addr : tcp://bbg-010:3555
+        pub_addr : tcp://bbg-010:3556
+        msg_addr : tcp://bbg-010:51003
+
+    casu-040 :
+        pose : {x : 0, y : -9, yaw : -1.57}
+        sub_addr : tcp://bbg-011:2555
+        pub_addr : tcp://bbg-011:2556
+        msg_addr : tcp://bbg-011:51102
+
+    casu-041 :
+        pose : {x : 9, y : -9, yaw : -1.57}
+        sub_addr : tcp://bbg-011:3555
+        pub_addr : tcp://bbg-011:3556
+        msg_addr : tcp://bbg-011:51103
+
+    casu-042 :
+        pose : {x : 18, y : -9, yaw : -1.57}
+        sub_addr : tcp://bbg-011:4555
+        pub_addr : tcp://bbg-011:4556
+        msg_addr : tcp://bbg-011:51104
+
+    casu-043 :
+        pose : {x : 27, y : -9, yaw : -1.57}
+        sub_addr : tcp://bbg-012:3555
+        pub_addr : tcp://bbg-012:3556
+        msg_addr : tcp://bbg-012:51203
+
+#    casu-044 :
+#        pose : {x : 36, y : -9, yaw : -1.57}
+#        sub_addr : tcp://bbg-012:4555
+#        pub_addr : tcp://bbg-012:4556
+#        msg_addr : tcp://bbg-012:51204
+
+    casu-045 :
+        pose : {x : -27, y : -18, yaw : -1.57}
+        sub_addr : tcp://bbg-013:1555
+        pub_addr : tcp://bbg-013:1556
+        msg_addr : tcp://bbg-013:51301
+
+    casu-046 :
+        pose : {x : -18, y : -18, yaw : -1.57}
+        sub_addr : tcp://bbg-013:2555
+        pub_addr : tcp://bbg-013:2556
+        msg_addr : tcp://bbg-013:51302
+
+    casu-047 :
+        pose : {x : -9, y : -18, yaw : -1.57}
+        sub_addr : tcp://bbg-010:4555
+        pub_addr : tcp://bbg-010:4556
+        msg_addr : tcp://bbg-010:51004
+
+    casu-048 :
+        pose : {x : 0, y : -18, yaw : -1.57}
+        sub_addr : tcp://bbg-015:1555
+        pub_addr : tcp://bbg-015:1556
+        msg_addr : tcp://bbg-015:51501
+
+    casu-049 :
+        pose : {x : 9, y : -18, yaw : -1.57}
+        sub_addr : tcp://bbg-015:2555
+        pub_addr : tcp://bbg-015:2556
+        msg_addr : tcp://bbg-015:51502
+
+    casu-050 :
+        pose : {x : 18, y : -18, yaw : -1.57}
+        sub_addr : tcp://bbg-016:1555
+        pub_addr : tcp://bbg-016:1556
+        msg_addr : tcp://bbg-016:51601
+
+    casu-051 :
+        pose : {x : 27, y : -18, yaw : -1.57}
+        sub_addr : tcp://bbg-016:2555
+        pub_addr : tcp://bbg-016:2556
+        msg_addr : tcp://bbg-016:51602
+
+    casu-052 :
+        pose : {x : -27, y : -27, yaw : -1.57}
+        sub_addr : tcp://bbg-013:3555
+        pub_addr : tcp://bbg-013:3556
+        msg_addr : tcp://bbg-013:51303
+
+    casu-053 :
+        pose : {x : -18, y : -27, yaw : -1.57}
+        sub_addr : tcp://bbg-013:4555
+        pub_addr : tcp://bbg-013:4556
+        msg_addr : tcp://bbg-013:51304
+
+    casu-054 :
+        pose : {x : -9, y : -27, yaw : -1.57}
+        sub_addr : tcp://bbg-014:1555
+        pub_addr : tcp://bbg-014:1556
+        msg_addr : tcp://bbg-014:51401
+
+    casu-055 :
+        pose : {x : 0, y : -27, yaw : -1.57}
+        sub_addr : tcp://bbg-014:2555
+        pub_addr : tcp://bbg-014:2556
+        msg_addr : tcp://bbg-014:51402
+
+    casu-056 :
+        pose : {x : 9, y : -27, yaw : -1.57}
+        sub_addr : tcp://bbg-015:3555
+        pub_addr : tcp://bbg-015:3556
+        msg_addr : tcp://bbg-015:51503
+
+    casu-057 :
+        pose : {x : 18, y : -27, yaw : -1.57}
+        sub_addr : tcp://bbg-016:3555
+        pub_addr : tcp://bbg-016:3556
+        msg_addr : tcp://bbg-016:51603
+
+    casu-058 :
+        pose : {x : 27, y : -27, yaw : -1.57}
+        sub_addr : tcp://bbg-016:4555
+        pub_addr : tcp://bbg-016:4556
+        msg_addr : tcp://bbg-016:51604
+
+#    casu-059 :
+#        pose : {x : -9, y : -36, yaw : -1.57}
+#        sub_addr : tcp://bbg-014:3555
+#        pub_addr : tcp://bbg-014:3556
+#        msg_addr : tcp://bbg-014:51403
+
+#    casu-060 :
+#        pose : {x : 0, y : -36, yaw : -1.57}
+#        sub_addr : tcp://bbg-014:4555
+#        pub_addr : tcp://bbg-014:4556
+#        msg_addr : tcp://bbg-014:51404
+
+#    casu-061 :
+#        pose : {x : 9, y : -36, yaw : -1.57}
+#        sub_addr : tcp://bbg-015:4555
+#        pub_addr : tcp://bbg-015:4556
+#        msg_addr : tcp://bbg-015:51504
+
+

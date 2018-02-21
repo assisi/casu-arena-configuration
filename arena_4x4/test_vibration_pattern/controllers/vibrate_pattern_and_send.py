@@ -31,8 +31,10 @@ if __name__ == '__main__':
         for (a,f,d,t) in zip(amplitudes,frequencies,durations,sleep_periods):
             msg = c.read_message()
             while not msg:
+                print(msg)
                 msg = c.read_message()
                 time.sleep(1)
+            print('Got msg!')
             c.set_diagnostic_led_rgb(g=1)
             c.set_vibration_pattern(d,f,a)
             time.sleep(t[0])

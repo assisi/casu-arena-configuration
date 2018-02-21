@@ -1,7 +1,7 @@
 name: casu-023
 pub_addr: tcp://bbg-006:2556
 sub_addr: tcp://bbg-006:2555
-msg_addr: tcp://*:50604
+msg_addr: tcp://*:50602
 neighbors:
   back:
     address: tcp://bbg-005:50504

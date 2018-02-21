@@ -34,6 +34,7 @@ if __name__ == '__main__':
             c.set_vibration_pattern(d,f,a)
             time.sleep(t[0])
             c.send_message('right','blink')
+            print("Sending message!")
             c.set_diagnostic_led_rgb(g=0)
             c.speaker_standby()
             time.sleep(t[1])
