@@ -1,0 +1,36 @@
+# Deployment specification file
+# For each casu in the arena, we need to specifiy:
+#     - the hostname of the target machine
+#     - the controller and additional files to deploy
+
+beearena :
+    casu-049 :
+        hostname : bbg-015
+        prefix : deploy
+        controller : controllers/lightshow_diag.py
+        extra : []
+    casu-056 :
+        hostname : bbg-015
+        prefix : deploy
+        controller : controllers/lightshow_diag.py
+        extra : []
+    casu-048 :
+        hostname : bbg-015
+        prefix : deploy
+        controller : controllers/lightshow_diag.py
+        extra : []
+    casu-055 :
+        hostname : bbg-014
+        prefix : deploy
+        controller : controllers/lightshow_diag.py
+        extra : []
+    casu-053 :
+        hostname : bbg-014
+        prefix : deploy
+        controller : controllers/lightshow_diag.py
+        extra : []
+    casu-054 :
+        hostname : bbg-014
+        prefix : deploy
+        controller : controllers/lightshow_diag.py
+        extra : []

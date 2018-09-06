@@ -1,0 +1,47 @@
+# Configuration file describing a whole arena
+
+# the position of the CASUs in reality and GUI is identical
+
+# Layer names can be assigned arbitrarily,
+# as long as they consist only of letters, dashes and underscores
+
+beearena :
+    # Casu names have to start with casu- in order for
+    # automatic spawning to work; they are also only
+    # allowed to contain letters, dashes and underscores
+
+    casu-048 :
+        pose : {x : 0, y : -18, yaw : -1.57}
+        sub_addr : tcp://bbg-015:4555
+        pub_addr : tcp://bbg-015:4556
+        msg_addr : tcp://bbg-015:51504
+
+    casu-049 :
+        pose : {x : 9, y : -18, yaw : -1.57}
+        sub_addr : tcp://bbg-015:1555
+        pub_addr : tcp://bbg-015:1556
+        msg_addr : tcp://bbg-015:51501
+
+    casu-053 :
+        pose : {x : -18, y : -27, yaw : -1.57}
+        sub_addr : tcp://bbg-014:3555
+        pub_addr : tcp://bbg-014:3556
+        msg_addr : tcp://bbg-014:51403
+
+    casu-054 :
+        pose : {x : -9, y : -27, yaw : -1.57}
+        sub_addr : tcp://bbg-014:4555
+        pub_addr : tcp://bbg-014:4556
+        msg_addr : tcp://bbg-014:51404
+
+    casu-055 :
+        pose : {x : 0, y : -27, yaw : -1.57}
+        sub_addr : tcp://bbg-014:1555
+        pub_addr : tcp://bbg-014:1556
+        msg_addr : tcp://bbg-014:51401
+
+    casu-056 :
+        pose : {x : 9, y : -27, yaw : -1.57}
+        sub_addr : tcp://bbg-015:3555
+        pub_addr : tcp://bbg-015:3556
+        msg_addr : tcp://bbg-015:51503

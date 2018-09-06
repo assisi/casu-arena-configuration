@@ -1,0 +1,19 @@
+digraph whole_arena {
+    subgraph "beearena" {
+        "casu-048" -> "casu-055" [label = "right" ]
+        "casu-048" -> "casu-049" [label = "front" ]
+        "casu-049" -> "casu-056" [label = "right" ]
+        "casu-049" -> "casu-048" [label = "back" ]
+        "casu-050" -> "casu-049" [label = "back" ]
+        "casu-052" -> "casu-053" [label = "front" ]
+        "casu-053" -> "casu-054" [label = "front" ]
+        "casu-054" -> "casu-053" [label = "back" ]
+        "casu-054" -> "casu-055" [label = "front" ]
+        "casu-055" -> "casu-048" [label = "left" ]
+        "casu-055" -> "casu-054" [label = "back" ]
+        "casu-055" -> "casu-056" [label = "front" ]
+        "casu-056" -> "casu-049" [label = "left" ]
+        "casu-056" -> "casu-055" [label = "back" ]
+
+    }
+}
