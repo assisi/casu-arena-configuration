@@ -22,7 +22,7 @@ if __name__ == '__main__':
 
     icasu = ['48', '49', '53', '54', '55', '56']
 
-    begin_path = '../rtc/casu-0'
+    begin_path = '../../rtc/casu-0'
     end_path = '.rtc'
     casus = [CasuL(begin_path + ic + end_path, ic) for ic in icasu]
 
@@ -38,17 +38,17 @@ if __name__ == '__main__':
                 ]
 
     while(1):
-        for item, i in enumerate(sequence):
+        for i, item in enumerate(sequence):
             if i == 0:
                 time.sleep(item[1])
-            else
+            else:
                 time.sleep(item[1] - sequence[i-1][1])
-            time = time.time()
+            time_now = time.time()
             for casu in casus:
-                if time - casu.time_start >= casu.time_on:
-                    casu.set_diagnostic_led_rgb(0,0,0)
+                if time_now - casu.time_start >= casu.time_on:
+                    casu.casu.set_diagnostic_led_rgb(0,0,0)
                     casu.time_on = 0
                     if casu.id == item[0]:
-                        c.time_start = time.time()
-                        c.time_on = item[2]
-                        c.set_diagnostic_led_rgb(1,1,1)
+                        casu.time_start = time.time()
+                        casu.time_on = item[2]
+                        casu.casu.set_diagnostic_led_rgb(1,1,1)

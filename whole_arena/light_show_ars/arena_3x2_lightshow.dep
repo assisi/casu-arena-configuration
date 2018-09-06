@@ -8,29 +8,35 @@ beearena :
         hostname : bbg-015
         prefix : deploy
         controller : controllers/lightshow_diag.py
+        user : assisi
         extra : []
     casu-056 :
         hostname : bbg-015
         prefix : deploy
         controller : controllers/lightshow_diag.py
+        user : assisi
         extra : []
     casu-048 :
         hostname : bbg-015
         prefix : deploy
         controller : controllers/lightshow_diag.py
+        user : assisi
         extra : []
     casu-055 :
         hostname : bbg-014
         prefix : deploy
         controller : controllers/lightshow_diag.py
+        user : assisi
         extra : []
     casu-053 :
         hostname : bbg-014
         prefix : deploy
         controller : controllers/lightshow_diag.py
+        user : assisi
         extra : []
     casu-054 :
         hostname : bbg-014
         prefix : deploy
         controller : controllers/lightshow_diag.py
+        user : assisi
         extra : []
